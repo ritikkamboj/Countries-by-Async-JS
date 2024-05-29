@@ -155,9 +155,9 @@ const getCountryData = function (country) {
   //   .catch(error => console.error('Error:', error));
 };
 
-
+const x =prompt("enter the country ")
 btn.addEventListener('click', function () {
-  getCountryData('india');
+  getCountryData(x);
 
 
 });
